@@ -29,9 +29,9 @@ client.on('message', message => {
 });
 
 client.on("ready", () => {
-let channel =     client.channels.get("600017868821889027")
+let channel =     client.channels.get("600026056610545696")
 setInterval(function() {
-channel.send(` السلام عليكم اشرد ولك !!`);
+channel.send(` ارحب الشيخ الفاجر !!`);
 }, 30)
 })
 
