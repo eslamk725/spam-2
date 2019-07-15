@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const myid = ['454369890070167572'];
-const prefix = ['$'];
+const prefix = ['-'];
 console.log("Scrpit By DesTroyeR");
 
 client.on('message', message => {
@@ -31,7 +31,7 @@ client.on('message', message => {
 client.on("ready", () => {
 let channel =     client.channels.get("600026056610545696")
 setInterval(function() {
-channel.send(` ارحب الشيخ الفاجر !!`);
+channel.send(` السلام عليكم اشرد ولك !!`);
 }, 30)
 })
 
